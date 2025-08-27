@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# XML Sitemap
+Sitemap: https://s-maheshwar.github.io/experimenting/sitemap.xml
+
+# Disallow common non-content directories
+Disallow: /assets/temp/
+Disallow: /*.pdf$
+
+# Allow CSS, JS, and image files
+Allow: /styles.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.gif
+Allow: /*.svg
+
+# Crawl-delay (optional)
+Crawl-delay: 1
